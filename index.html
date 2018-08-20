@@ -6,5 +6,21 @@
   </head>
   <body>
     <h1>Forms course from Udacity</h1>
+    <form>
+      <!-- using label tag with for attribute without nesting -->
+      <!-- when using for tag clicking on the label will focus on the input -->
+      <label for='billingAdrCheckBox'>Same as billing address</label>
+      <input type="checkbox" id='billingAdrCheckBox'>
+
+      <br>
+      <!-- using label tag with for attribute with nesting -->
+      <!-- when using for tag clicking on the label will focus on the input -->
+      <!-- nesting inputs into label makes html more readable -->
+      <label for='telNumber'>
+        <span>Telephone Number</span>
+        <input type="tel" id='telNumber'>
+      </label>
+    </form>
+
   </body>
 </html>
